@@ -1,0 +1,530 @@
+/* dindin */
+* {
+    
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    
+}
+
+html {
+    
+    scroll-behavior: smooth;
+}
+
+.container-header {
+    
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.container-header a {
+    
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;        
+    font-weight: bold;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
+.container-header nav {
+    margin-right: 5rem;
+
+}
+
+.container-header div {
+    margin-left: 2.5rem;
+}
+
+
+.title-container{
+    display: flex;    
+    padding-left:4rem;
+    padding-right:5rem;
+    width:50%;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 1rem; 
+
+}
+
+.title-container img{
+    display: flex;
+    width: 150%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 25rem;
+    margin-left: 3rem ;
+    margin-right:10rem;
+    padding-top: 10rem;
+
+}
+
+.container-text {
+
+    display: flex ;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right:1.5rem;
+    margin-left: 0rem;
+   
+
+}
+
+h2 {
+    
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 3rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    
+
+}
+
+.title.text {
+    padding-left:5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.container-main {
+    
+    background: #F7F7F7;
+    flex-direction: column;
+    padding-left:0rem;
+    margin-left: -0.5rem;
+    
+}
+
+.container-main iframe {
+    padding-top: 3rem;
+    width: 30rem;
+    height:17rem;
+
+}
+
+.main-content {
+    
+    margin-left: 5.1rem;
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+
+}
+
+iframe {
+    margin-left:2rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4rem;
+    padding-left: 1.8rem;
+    
+}
+
+h4 {
+    padding-top:3rem;
+    padding-left: 5rem;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+
+}
+
+.container-text {
+    padding-left:5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+.content-flex {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    max-width: 85%;
+    
+}
+
+.line-content img {
+
+    background: #F7F7F7;
+    margin-left: 6rem;
+    width: 80%;
+}   
+
+.container-footer {
+    
+    background-color: #419488;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+
+}
+
+.bottom-content a {
+    
+    text-align:left;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+}
+
+.bottom-content1 {
+    
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.button-content2 a {
+
+    border-radius: 62px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 1.85rem;
+    padding-right: 1.85rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #419488;
+
+}
+
+.button-content3 a {
+
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border-radius: 62px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #419488;
+    
+}
+
+@media screen and (max-width: 767px) {
+   
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        margin-left:auto;
+        padding-left: 4rem; 
+      
+      
+    }
+
+    .container-header nav {
+        flex-direction: column;
+        margin: 0;
+        margin-left:-5rem;    
+
+    }
+
+    .container-header div {
+        margin-left:-5rem;
+   
+    }
+
+    .main-title {
+        padding-left: -5rem;
+        font-size: 90%;
+        margin-left:-2rem;
+    }
+
+    .title-container {
+        flex-direction: column;
+        text-align: center;
+   
+}
+
+    .content-flex {
+        
+        flex-direction: column;
+        margin-bottom:0;
+        padding-bottom: 2rem;
+        text-align: center;
+        margin-left:0.5rem;
+
+    }
+
+    .title-container img{
+        display: grid;
+        width: 150%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-left: 0rem;
+        margin-left: 5rem ;
+        margin-right:5rem;
+        padding-top: 10rem;
+    
+    }
+
+    h2 {
+        font-size: 40px ;
+        margin-left:1rem;
+        
+    }
+
+    .title-text { 
+    flex-direction: column;   
+    margin-left:10rem;
+    margin-right: 10rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+    }
+
+    .iframe {
+        
+
+    }
+
+    .line-content img {
+        
+        display: flex;
+        width: 7rem;
+        height:0.2rem;
+        margin-left:-6rem;
+
+
+    }
+
+    .bottom-content{
+        padding-left: 8rem;
+    }
+
+    .container-footer {
+        
+        display: grid;
+        justify-content: center ;
+        padding-top:1rem;
+        margin-left:-2rem;
+    
+    }
+
+    .container-footer img{
+        width: 70%;
+        padding-left: 4rem;
+        }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .container-header {
+      
+        flex-direction: column;
+        margin-left: -2rem;
+        text-align: center;
+           
+    }
+
+    .container-header nav {
+        
+        display: flex;
+   
+    }
+
+    .container-header div {
+        
+        display:flex;
+    }
+
+    .title-container {
+        
+        align-content: center;
+        margin: auto;
+    
+    }
+
+    .h4 {
+
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .content-flex {
+        
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .main-content iframe {
+
+        margin-left: -2rem;
+        margin-top: 1rem;
+        width:17rem;
+        height: 10rem;
+        
+
+    }
+
+    .line-content img {
+        
+        display: flex;
+        width: 90%;
+        margin-left:1rem;
+
+    }
+
+    .container-footer {
+        
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 0rem;
+        padding:0.5rem;
+
+    }
+
+    .bottom-content {
+        margin-left:2rem;
+    }
+    
+    .bottom-content1 {
+        margin-left:2rem;
+    }
+       
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+
+    .container-header {
+        
+        padding:1rem;
+        display: flex;
+        
+    }
+  
+    .container-header nav {
+        
+        padding-right: 1.5rem;
+        
+    }
+  
+  
+    .container-header div {
+      
+        margin-left: 1.5rem;
+
+    }
+    
+
+    .title-container{
+        margin:auto;
+        
+        
+        
+    }
+
+    .title-container img{
+        display: flex;
+        width: 100%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-left: 0rem;
+        margin:0;
+        padding-top: 7rem;
+    }
+    h2 {
+        padding-bottom:2rem;
+    }
+
+    .title-text {
+        padding-bottom:2rem;
+    }
+
+    .container-main iframe {
+
+       align-items: center;
+       margin-left: -0.8rem;
+
+    }
+
+    .content-flex{
+        
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+
+    }
+
+    .main-content {
+        
+        display:flex;
+        width: 70%;
+               
+    }
+    
+    .container-text {
+               
+    padding-bottom: 2rem;
+               
+    }
+
+    .line-content img {
+        
+        display: flex;
+        width: 90%;
+        margin-left:1rem;
+
+    }
+
+    .container-footer {
+        
+        display:flex;
+        justify-content: space-around;
+        padding-top :1%;
+        padding-bottom :1%;
+        
+        
+    }
+}
+    
+  
+
