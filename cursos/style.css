@@ -127,6 +127,11 @@
         display: flex;
         justify-content: space-around;
         padding-top: 1rem;
+        
+    }
+
+    .container-footer img {
+        margin-top: -0.5rem;
     }
 
     .bottom-content a {
